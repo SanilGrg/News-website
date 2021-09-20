@@ -1,0 +1,71 @@
+.header
+{
+    margin-top: 20px;
+    
+    .header-top
+    {
+        background: $r;
+        margin: 0;
+        .left 
+        {
+            text-align: start;
+            padding: 0;
+            ul 
+            {
+                padding: 5px 0;
+                li 
+                {
+                    padding: 5px 10px;
+                    &:hover 
+                        {
+                            background: #000;
+                            color: #fff;
+                        }
+                    a 
+                    {
+                        color: #fff;
+                        font-size: 11px;
+                        
+                    }
+                }
+            }
+        }
+        .social 
+        {
+            text-align: end;
+            ul 
+            {
+                padding: 5px 0;
+                li 
+                {
+                    padding: 5px 10px;
+                    &:hover 
+                        {
+                            background: #000;
+                            color: #fff;
+                        }
+                    a 
+                    {
+                        color: #fff;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .header-bottom 
+    {
+        .mag 
+        {
+            padding: 20px 10px;
+        }
+    }
+    .advertisement 
+    {
+        padding: 25px 0;
+        img 
+        {
+            border: 10px solid #f5f5f5;
+        }
+    }
+}

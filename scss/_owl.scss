@@ -1,0 +1,61 @@
+.owl 
+{
+    .owl-carousel 
+    {
+        padding: 15px 10px;
+        overflow: hidden;
+        .owl-slider 
+        {
+            background:$lb;
+            border-bottom: 3px solid $r;
+            border-top: 3px solid $r;
+            padding: 15px 5px;
+           a 
+           {
+               img 
+               {
+                position: relative;
+              
+               }
+           }
+        }
+        .caption
+        {
+            position: absolute;
+            padding-top: 5px;
+            background: $r;
+            top: 18px;
+            left: 5px;
+            h5 
+            {
+                font-size: 14px;
+                font-weight: 700;
+                color: #fff;
+                padding: 0 10px;
+            }
+        }
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        background: 0 0;
+        color: inherit;
+        border: none;
+        padding: 0!important;
+        font: inherit;
+        font-size: 50px;
+        font-weight: 600;
+        color: red;
+        
+    }
+    .owl-nav button.owl-next 
+    {
+        position: absolute;
+        bottom: 90px;
+        right: 20px;
+    }
+    .owl-nav button.owl-prev
+    {
+        position: absolute;
+        bottom: 90px;
+        left: 20px;
+    }
+}

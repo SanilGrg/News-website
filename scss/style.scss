@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import 'var';
+@import 'header';
+@import 'nav';
+@import 'slider';
+@import 'mid';
+@import 'owl';
+@import 'world';
+@import 'footer';
+
+
+body 
+{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../img/background-mhmag1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    ul 
+    {
+        margin: 0;
+        li 
+        {
+            display: inline;
+            list-style: none;
+            a 
+            {
+                text-decoration: none;
+            }
+        }
+    }
+
+}
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+ {
+     background: #fff;
+     padding: 0;
+ }
+ html 
+ {
+     scroll-behavior: smooth;
+ }
+ .sticky 
+ {
+     position: sticky;
+     top: 0;
+     width: 100%;
+     z-index:999;
+ }
